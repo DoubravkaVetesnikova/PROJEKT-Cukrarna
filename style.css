@@ -31,5 +31,178 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+}
+
+.header {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	flex: 1 1 calc(100% / 4);
+	padding: 10px 15px;
+	color: #242424;
+}
+
+.menu a:hover {
+	background-color: #f195b2;
+	border-radius: 20px;
+	color: #ffff;
+}
+
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 150px 30px;
+}
+
+.herotext {
+	color: #ffff;
+	max-width: 1100px;
+	margin-right: 40%;
+	margin-left: 100px;
+}
+
+.welcome {
+	display: flex;
+	max-width: 1100px;
+	margin: 80px auto;
+}
+
+.welcome img {
+	border-radius: 5px;
+}
+
+.welcometext {
+	padding-bottom: 20px;
+}
+
+.left1 {
+	margin-right: 30px;
+}
+
+.left1 a {
+	background-color: #f195b2;
+	color: #ffff;
+	padding: 15px 40px;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+.left1 a:hover {
+	background-color: #d2567d;
+}
+
+.today {
+	background-color: #f0f0f0;	
+}
+
+.offer {
+	margin-bottom: 80px;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.product {
+	max-width: 252.5px;
+	background-color: #ffff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #808080;
+}
+
+.producttext {
+	margin: 20px;
+	text-align: center;
+}
+
+.product img {
+	max-width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.products {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.baking {
+	display: flex;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.baking img {
+	border-radius: 5px;
+}
+
+.left2 {
+	margin-right: 30px;
+}
+
+.content {
+	margin-bottom: 80px;
+}
+
+.footer {
+	background-color: #303339;
+	color: #ffff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
 
